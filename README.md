@@ -44,8 +44,7 @@ STEP 2: Smooth data and Do segmention to find CNVs (Copy-Number Variations)
     OutPut Format:
        Column 1-5: chr_name start_index end_index start_position end_position
        Column 6-10: label mean*sqrt(np) mean np(number of probe) p-value
-
-
+       
 Alternative of STEP2: Step2 may be run in two stages: DP process change-points detection and segments labeling. 
 	If large k (>= 1000) is applied and users want to test different sets of parameters 
 without doing computation-intensive DP process each time, this alternative is recommended.
