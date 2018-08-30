@@ -66,6 +66,7 @@ STEP 2B: Label the segments with customized parameters.
     output_step2A is output of STEP 2A. Other parameters and options are same as STEP2.
 	  
 ----------------- Tips ----------------------------------------------------
+
 If User want to compare the results across a group of samples,then
     (1) the option
 		-d pooled-deviation
@@ -78,6 +79,7 @@ If User want to compare the results across a group of samples,then
 	to skip B-H procedure and use the option and specify Q0 as the cut-off value.
         
 ---------------------- EXAMPLEs --------------------------------------------------
+
 using "chr22-input-data" in the demo-data folder
 
 step 1: 
