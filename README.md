@@ -65,7 +65,7 @@ STEP 2B: Label the segments with customized parameters.
         
     output_step2A is output of STEP 2A. Other parameters and options are same as STEP2.
 	  
------------------ Tips -------------------
+----------------- Tips ----------------------------------------------------
 If User want to compare the results across a group of samples,then
     (1) the option
 		-d pooled-deviation
@@ -77,8 +77,7 @@ If User want to compare the results across a group of samples,then
         	-f 0 -q Q0        
 	to skip B-H procedure and use the option and specify Q0 as the cut-off value.
         
----------------------- EXAMPLEs ------------------
-##
+---------------------- EXAMPLEs --------------------------------------------------
 using "chr22-input-data" in the demo-data folder
 
 step 1: 
@@ -86,13 +85,11 @@ step 1:
 
 step 2:
  ./SEG_executables/seg ./demo-data/chr22-input-data chr22-input-data_out chr22-input-data_out_seq  -q 0.1 -m 0.525018 -s 5 -w 6 -k 101 -n 1
-## 
 
-##
 using "K9-aCGH_data" in the demo-data folder
 
-#Dog has 39 chromosomes
-# Here is format of inputfile 
+Dog has 39 chromosomes
+Here is format of inputfile 
 CHROMOSOME CHR_POSITION LOG2_RATIO
 chr1 3212001 0.1090
 chr1 3225657 -0.1221
@@ -106,5 +103,5 @@ step 1:
 step2:
 ./SEG_executables/seg ./demo-data/K9-aCGH_data K9-aCGH_data.stat K9-aCGH_data_segOutput -k 4000
 
-# chromsome 1, the largest chromosome in dog, has 20820 probes.
-# when Km=4000, Km*w=4000*6=24000>20820, the DP will be applied on whole chromosomes. 
+chromsome 1, the largest chromosome in dog, has 20820 probes.
+when Km=4000, Km*w=4000*6=24000>20820, the DP will be applied on whole chromosomes. 
