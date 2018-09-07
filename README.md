@@ -1,5 +1,7 @@
 # SEG
 The program SEG analyzes the log2-ratios from whole genome sequencing or microarray (CGH or SNP array) data.  SEG first identifies change-points among the log2-ratio series along a chromosome and then identifies segments that are significantly amplified or deleted. SEG was developed by Dr. Mucheng Zhang, Dr. Deli Liu, Dr. Jie Tang and others in Dr. Shaying Zhao's lab.  Please contact szhao@uga.edu for any issues regarding SEG
+
+SEG is published at https://doi.org/10.1016/j.csbj.2018.09.001
  
 SEG USAGE
 SEG analysis input data in two steps. Step 1 in only needed for first-time run.
